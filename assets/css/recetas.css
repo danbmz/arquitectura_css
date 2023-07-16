@@ -1,0 +1,39 @@
+.recetas{
+    background: #dab997;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 6rem;
+}
+.receta{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 5rem 0;
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+.receta:hover{
+    transform: scale(1.05);
+}
+.receta__imagen{
+    border-radius: 5px 5px 0 0;
+}
+.receta__contenido{
+    padding:.8rem 0 1rem 1rem;
+
+}
+.receta__titulo{
+    font-size: 1.5rem;
+}
+.receta__descripcion{
+    font-size: 1.1rem;
+}
+.receta__boton{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: .3rem;
+    color: #fdfdfd;
+    cursor: pointer;
+}

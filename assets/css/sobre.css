@@ -1,0 +1,14 @@
+.sobre{
+    padding: 2.5rem;
+    text-align: center;
+}
+.sobre__titulo{
+    color: red;
+    font-family: Pacifico, cursive;
+    font-size: 3rem;
+}
+.sobre__descripcion{
+    color: #8c8888;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
